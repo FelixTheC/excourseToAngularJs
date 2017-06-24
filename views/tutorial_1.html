@@ -1,0 +1,21 @@
+<br />
+
+<h1>{{tutorialObject.title}}</h1>
+<h3>{{tutorialObject.subtitle}}</h3>
+
+<welcome-message></welcome-message>
+
+<p>Number: {{2 + 2}}</p>
+<p>String: {{tutorialObject.firstname +' '+ tutorialObject.lastname}}</p>
+<p><b>Binding: {{ tutorialObject.bindOutput }}</b></p>
+
+<label>Firstname:</label>
+<input ng-model="tutorialObject.firstname"></input>
+<br>
+<label>Lastname:</label>
+<input ng-model="tutorialObject.lastname"></input>
+<br><br>
+<button ng-click="timesTwo()">Multiply</button>
+<button ng-click="reset()">Reset</button>
+
+<a href="#/secondePage">Second Page</a>
