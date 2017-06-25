@@ -1,0 +1,2 @@
+#groceryCtrl
+angular.module("groceryCtrlModule", [])
